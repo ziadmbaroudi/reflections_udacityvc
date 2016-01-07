@@ -3,3 +3,6 @@ Git creates the meta data required to track versions of my files through commits
 
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 It offers a space for files that are to be committed.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+The staging area is a "buffer" between the repository and working directory. We can queue up changed files, do a "git diff --staged" to be sure that we are committing one logical change and then commit.
