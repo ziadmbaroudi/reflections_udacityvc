@@ -1,0 +1,10 @@
+What I have learnt about Git so far:
+1- to create a new repository, cd to relevant directory and type:
+> git init
+2- > git status: shows any untracked changes
+3- > git add <filename>: adds the file with that name to the staging area
+4- > git commit: commits the files in the staging area to the repository
+5- > git diff:
+   > git diff: Difference between staging area and last checkout (not incl unadded files!)
+   > git diff --staged: difference between staging area and last version in repository
+   > git diff id1 id2: difference between two commits
