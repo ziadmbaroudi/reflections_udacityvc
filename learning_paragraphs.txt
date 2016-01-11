@@ -8,3 +8,12 @@ What I have learnt about Git so far:
    > git diff: Difference between staging area and last checkout (not incl unadded files!)
    > git diff --staged: difference between staging area and last version in repository
    > git diff id1 id2: difference between two commits
+
+6- > git branch <branchname>
+   creates a branch with <banchname> as a label. This is useful for experimenting with a new feature.
+   Once done, we can merge it with the master.
+7- > git merge master <branchname>
+   A side efffect of this is that we will have all sorts of commits from all sorts of sources. We will no longer know the parent of a particular commit and so we cannot necessarily show the differences introduced only in that commit.
+   
+8- > git show commit_id
+     diff commit_id with its parent!
