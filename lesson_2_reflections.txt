@@ -12,3 +12,7 @@ I would use branches when experimenting with a new interface for my website or a
 
 Q5: How do the diagrams help you visualize the branch structure?
 Diagrams permit me to see which commits are reachable and where a certain feature exists.
+
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines the changes made in two branches. This way, the new feature can take its place among the changes made on the master branch.
+We need to represent it in a way that displays "reachability" between this new, merged branch, and previous ones from both individual branches.
