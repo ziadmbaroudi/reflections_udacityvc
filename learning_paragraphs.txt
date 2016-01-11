@@ -12,8 +12,19 @@ What I have learnt about Git so far:
 6- > git branch <branchname>
    creates a branch with <banchname> as a label. This is useful for experimenting with a new feature.
    Once done, we can merge it with the master.
-7- > git merge master <branchname>
+7- > git merge master <branchname> (checkout master first)
    A side efffect of this is that we will have all sorts of commits from all sorts of sources. We will no longer know the parent of a particular commit and so we cannot necessarily show the differences introduced only in that commit.
    
 8- > git show commit_id
      diff commit_id with its parent!
+
+9- To find branches created by others: 
+   > git branch -a
+
+10- To show the "graph" of the branch structure
+   > git log --graph --oneline master <branchname>
+11- To delete a branch label:
+   > git branch -d <branchname>
+
+IN CASE THERE ARE CONFLICTS
+git will warn me and I have to manually resolve them, commit the change and then the merge will be complete
