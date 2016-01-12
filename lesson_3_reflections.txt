@@ -19,6 +19,7 @@ Q5: How would you collaborate without using Git or GitHub? What would be easier,
 - Maybe sync through Dropbox to see each other's work
 - Nightmare if changes involve different files each time, as is the case with code
 
-
+Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I think I would play it safe and make changes in branches all the time even if the workflow is more complicated!
 
 
