@@ -28,3 +28,15 @@ What I have learnt about Git so far:
 
 IN CASE THERE ARE CONFLICTS
 git will warn me and I have to manually resolve them, commit the change and then the merge will be complete
+
+GITHUB:
+------
+On GitHub, I can:
+- Create a repository
+- Push local work to it: 
+  > git push origin master
+- Pull from it:
+  equivalent to a fetch + merge with local
+- Fork a repository (analogous to clone, only remotely)
+
+
